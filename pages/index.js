@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <>
       <main className="home">
-        <h1>Next.js 13 Experiments</h1>
-        <p>Click a link below to view that experiment.</p>
-        <Link href="/bugLinkSmoothScroll">
+        <h1>Next.js 12 Experiments</h1>
+        <p>Primarily a diff of what works in 12 but not 13.</p>
+        {/* <Link href="/bugLinkSmoothScroll">
           BUG | next/link ignores smooth scroll directive.
         </Link>
         <Link
@@ -17,7 +17,7 @@ export default function Home() {
         </Link>
         <Link href="/egParallaxSmoother">
           EG | Parallax with next/image. Smoother?
-        </Link>
+        </Link> */}
         <Link href="/egRedBox">
           EG | Show a Red Box
         </Link>
